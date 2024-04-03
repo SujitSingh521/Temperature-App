@@ -1,0 +1,81 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: -moz-fit-content; */
+  height: fit-content;
+  background-color: skyblue;
+  margin: auto;
+  width: 19%;
+  border: 2px solid #3b0274;
+  border-radius: 55px;
+}
+
+
+.temperature-display-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.temperature-display {
+  border-radius: 50%;
+  color: #fff;
+  height: 220px;
+  width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  border: 3px solid #fff;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+button {
+  border-radius: 21px;
+  height: 36px;
+  width: 24%;
+  font-size: 22px;
+  border: 2px solid #034b5a;
+}
+
+.cold {
+  background-color: #035aa6;
+}
+
+.hot {
+  background-color: #ff5200;
+  margin: 34px;
+}
+
+button#btn2 {
+  color: #035aa6;
+}
+button#btn1 {
+  color: #003221;
+}
+.Back {
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1495616811223-4d98c6e9c869?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
